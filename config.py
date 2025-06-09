@@ -7,22 +7,22 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = API_ID
-API_HASH = "API_HASH"
+API_ID = 27175181
+API_HASH = "54271d9a3b85471d7deab0e4e70d583b"
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = "BOT_TOKEN"
+BOT_TOKEN = "7017461484:AAHauWEdHhQwAyAMJM-jnRlQCRNOHocH4KA"
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = "MONGO_DB_URI"
+MONGO_DB_URI = "mongodb+srv://likhithh68:<likhithh68>@cluster0.hxt0cd4.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
 # Chat id of a group for logging bot's activities
-LOG_GROUP_ID = LOG_GROUP_ID
+LOG_GROUP_ID = -4977888800 
 
 # Get this value from @ultron2_robot on Telegram by /id
-OWNER_ID = OWNER_ID
+OWNER_ID = 7958625532
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -39,8 +39,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = "https://t.me/thanos_pro"
-SUPPORT_GROUP = "https://t.me/thanosprosss"
+SUPPORT_CHANNEL = "https://t.me/musicbotowg"
+SUPPORT_GROUP = "https://t.me/dpzchannel143"
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -62,7 +62,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 2145386496))
 
 
 # Get your pyrogram v2 session from Replit
-STRING1 = "STRING_SESSION"
+STRING1 = "BQGeqQ0ApNy6fHNiwnUFrErRI45KP65JGti7X1Sd5_OX6XK8ASERTqj1kn1Qw8ZQmhhGuMZv2qRFztNTEdiD5dJp9baPqsHmvqV-2NsS-JV77uHKfvr1RWSuUV8yLk0iRvCZTcRK3_XsA5i4HWLUsPX57QgebQug1gMyzK4GD0vkvIBesRgRGfu7Z44B5XubiqTjSkXr1mnfKMeAvG9hIZc9YoHanloBQIIo5JvIoX9RB5JN8Pmbnng0c-42POIopPiRtkI5tIYcEZLLijvjPduAXwuX9_9ikM8s-4MaGxzEbeB-BwIwaojyWjYi3siA393s8jonrQyAze-r9swrVQtv0Xg9zwAAAAHaXvz8AA"
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
